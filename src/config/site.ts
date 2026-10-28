@@ -13,7 +13,7 @@ export interface Rating {
 export const SITE = {
   name: 'The Soul Barber',
   /** PENDIENTE: dominio definitivo. Lo usan canonical, hreflang, og:url y el sitemap. */
-  url: 'https://thesoulbarber.es/',
+  url: 'https://thesoulbarber.github.io/',
   /** Logo real en public/ (p. ej. '/logo.svg'). Vacío → se dibuja el nombre en texto.
    *  PNG con fondo transparente (marca blanca), pensado para las superficies oscuras. */
   logo: '/logo-soul-barber.png',
