@@ -1,0 +1,327 @@
+{
+  "meta": {
+    "home": {
+      "title": "The Soul Barber · Barbería en Santa Coloma de Gramenet",
+      "description": "Barbería en el centro de Santa Coloma de Gramenet: cortes, degradados y barba con lavado en sillón de masaje. 5,0 en más de 300 reseñas. Reserva online.",
+      "ogTitle": "The Soul Barber · Corte, barba y masaje en Santa Coloma",
+      "ogDescription": "Cuatro barberos, sillón de masaje y 5,0 en más de 300 reseñas. C/ dels Sagarra 5, Santa Coloma de Gramenet."
+    },
+    "cuts": {
+      "title": "Corte de pelo y degradados en Santa Coloma de Gramenet · The Soul Barber",
+      "description": "Corte de pelo de hombre y degradados en el centro de Santa Coloma de Gramenet. Corte + cejas + lavado por 16 €. Reserva online sin tarjeta."
+    },
+    "beard": {
+      "title": "Arreglo de barba en Santa Coloma de Gramenet · The Soul Barber",
+      "description": "Arreglo de barba en Santa Coloma de Gramenet por 13 €, o corte + barba + cejas + lavado por 25 €. Reserva online con tu barbero."
+    },
+    "kids": {
+      "title": "Corte de pelo para niños en Santa Coloma de Gramenet · The Soul Barber",
+      "description": "Corte de pelo para niños de 0 a 12 años por 14 € en el centro de Santa Coloma de Gramenet. Reserva online y paga en el local."
+    }
+  },
+  "a11y": {
+    "skip": "Saltar al contenido",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "language": "Idioma",
+    "mainNav": "Navegación principal",
+    "home": "The Soul Barber, inicio",
+    "newWindow": "(se abre en una ventana nueva)",
+    "booking": "(reserva en Yeasy, se abre en una ventana nueva)",
+    "stars": "{score} de 5 estrellas",
+    "breadcrumb": "Estás aquí"
+  },
+  "nav": {
+    "services": "Servicios",
+    "team": "Equipo",
+    "gallery": "Trabajos",
+    "reviews": "Reseñas",
+    "visit": "Visítanos",
+    "book": "Reservar",
+    "bookLong": "Reserva tu cita"
+  },
+  "status": {
+    "openNow": "Abierto ahora",
+    "closedNow": "Cerrado ahora",
+    "closesAt": "hasta las {time}",
+    "opensAt": "abrimos {day} a las {time}",
+    "dayToday": "hoy",
+    "dayTomorrow": "mañana",
+    "dayOn": "el {day}"
+  },
+  "hero": {
+    "kicker": "Barbería en Santa Coloma de Gramenet",
+    "title": "Corte, barba y masaje.",
+    "titleEm": "Tú solo relájate.",
+    "lead": "Degradados, barba y lavado en sillón de masaje en el centro de Santa Coloma. Reserva online sin tarjeta y paga en el local.",
+    "cta": "Reserva tu cita",
+    "ctaSecondary": "Ver precios",
+    "rating": "{score} en {count} reseñas",
+    "ratingSources": "Google y Yeasy",
+    "scroll": "Descubre la barbería"
+  },
+  "experience": {
+    "eyebrow": "La experiencia",
+    "title": "Aquí no vienes",
+    "titleEm": "solo a cortarte el pelo",
+    "lead": "Lo que más destacan nuestros clientes en sus reseñas, y lo que tienes desde tu primera visita.",
+    "items": {
+      "wash": {
+        "title": "Lavado incluido",
+        "text": "Los cortes de adulto llevan lavado. Sin suplementos ni sorpresas."
+      },
+      "massage": {
+        "title": "Sillón de masaje",
+        "text": "Te lavamos el pelo en un sillón con masaje. Es lo que más se comenta en Google."
+      },
+      "detail": {
+        "title": "Al detalle",
+        "text": "Cejas a navaja y un último repaso hasta que el corte queda como quieres."
+      },
+      "time": {
+        "title": "A tu hora",
+        "text": "Te atendemos a la hora que reservas. Tu tiempo cuenta, y el de tu barbero también."
+      }
+    },
+    "note": "Reserva sin tarjeta y paga en el local. Cancelación gratis hasta {hours} horas antes."
+  },
+  "services": {
+    "eyebrow": "Servicios y precios",
+    "title": "Precios claros,",
+    "titleEm": "sin sorpresas",
+    "lead": "Elige servicio, barbero y hora en la reserva online. Pagas en el local, al terminar.",
+    "popular": "Los más pedidos",
+    "more": "Más servicios",
+    "book": "Reservar",
+    "bookAria": "Reservar {service}",
+    "colorTitle": "¿Color o un diseño?",
+    "colorText": "También hacemos color. Pregúntanos en el local o por Instagram y te decimos precio.",
+    "items": {
+      "cutBrowsWash": {
+        "name": "Corte + cejas + lavado",
+        "desc": "Corte a tu medida, arreglo de cejas y lavado en sillón de masaje."
+      },
+      "cutBeardBrowsWash": {
+        "name": "Corte + barba + cejas + lavado",
+        "desc": "La experiencia completa: corte, barba perfilada, cejas y lavado."
+      },
+      "kidsCut": {
+        "name": "Corte de niño",
+        "desc": "Para los peques de 0 a 12 años."
+      },
+      "seniorCut": {
+        "name": "Corte jubilado + lavado",
+        "desc": "Precio especial para jubilados, con lavado incluido."
+      },
+      "beard": {
+        "name": "Barba",
+        "desc": "Arreglo y perfilado de barba."
+      },
+      "washMassage": {
+        "name": "Lavado + masaje capilar",
+        "desc": "Quince minutos para desconectar."
+      },
+      "brows": {
+        "name": "Cejas a navaja",
+        "desc": "Arreglo de cejas con navaja."
+      }
+    }
+  },
+  "team": {
+    "eyebrow": "El equipo",
+    "title": "Cuatro barberos,",
+    "titleEm": "un mismo cuidado",
+    "lead": "Elige con quién te sientas. Muchos clientes repiten siempre con el mismo y lo piden por su nombre.",
+    "roles": {
+      "manager": "Manager",
+      "barber": "Barbero"
+    },
+    "book": "Reserva con {name}",
+    "photoAlt": "{name}, de The Soul Barber"
+  },
+  "gallery": {
+    "eyebrow": "Trabajos",
+    "title": "Degradados, barbas",
+    "titleEm": "y color",
+    "lead": "Una muestra de lo que sale de nuestros sillones. Lo último, siempre en Instagram.",
+    "instagram": "Síguenos en Instagram",
+    "items": {
+      "interior": "El local: piedra gris y luz LED",
+      "fade": "Degradado con textura",
+      "beard": "Barba perfilada",
+      "color": "Color azul «Blue Flames»",
+      "wash": "Lavado en sillón de masaje",
+      "facade": "Fachada en C/ dels Sagarra 5"
+    }
+  },
+  "reviews": {
+    "eyebrow": "Reseñas",
+    "title": "{score} de media.",
+    "titleEm": "Y no lo decimos nosotros.",
+    "lead": "Las valoraciones de nuestros clientes en Google y en Yeasy, la app con la que reservan.",
+    "count": "{count} reseñas",
+    "checked": "Datos a {date}",
+    "sources": {
+      "google": "Google",
+      "yeasy": "Yeasy"
+    },
+    "highlightsTitle": "Lo que más se repite",
+    "highlights": {
+      "detail": {
+        "title": "Atentos a cada detalle",
+        "text": "Los clientes cuentan que se repasa lo que haga falta hasta que el corte queda perfecto."
+      },
+      "wash": {
+        "title": "El lavado, un momento",
+        "text": "El sillón con masaje mientras te lavan el pelo es lo más comentado en Google."
+      },
+      "time": {
+        "title": "Puntuales y con buen rollo",
+        "text": "Atienden a la hora reservada, aconsejan sobre tu estilo y el ambiente es cercano."
+      },
+      "loyal": {
+        "title": "Clientes que repiten",
+        "text": "Muchos vuelven desde el primer día y piden siempre a su barbero por su nombre."
+      }
+    },
+    "topicsTitle": "Lo que más aparece en Google",
+    "topics": {
+      "massage": "masaje",
+      "chair": "sillón",
+      "fade": "degradado",
+      "design": "diseño",
+      "wash": "lavado",
+      "trust": "confianza"
+    },
+    "mentions": "{n} reseñas",
+    "quotesTitle": "En sus palabras",
+    "readGoogle": "Lee las reseñas en Google",
+    "write": "Deja tu reseña"
+  },
+  "visit": {
+    "eyebrow": "Visítanos",
+    "title": "En el centro",
+    "titleEm": "de Santa Coloma",
+    "address": "Dirección",
+    "near": "Cerca de la Església Major",
+    "directions": "Cómo llegar",
+    "hours": "Horario",
+    "today": "hoy",
+    "closed": "Cerrado",
+    "days": {
+      "0": "Domingo",
+      "1": "Lunes",
+      "2": "Martes",
+      "3": "Miércoles",
+      "4": "Jueves",
+      "5": "Viernes",
+      "6": "Sábado"
+    },
+    "booking": "Reservas",
+    "bookingText": "Online, sin tarjeta. Cancelación gratis hasta {hours} h antes.",
+    "social": "Instagram",
+    "phone": "Teléfono",
+    "whatsapp": "WhatsApp",
+    "mapTitle": "Mapa de The Soul Barber en Santa Coloma de Gramenet",
+    "mapLoad": "Ver en el mapa",
+    "mapConsent": "El mapa lo sirve Google y solo se carga si pulsas el botón."
+  },
+  "faq": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Antes",
+    "titleEm": "de venir",
+    "items": {
+      "book": {
+        "q": "¿Cómo pido cita?",
+        "a": "Con el botón «Reserva tu cita»: eliges servicio, barbero y hora en Yeasy. No hace falta tarjeta."
+      },
+      "cancel": {
+        "q": "¿Puedo cancelar o cambiar la cita?",
+        "a": "Sí, gratis hasta {hours} horas antes. Así el hueco le sirve a otro cliente."
+      },
+      "pay": {
+        "q": "¿Cuándo pago?",
+        "a": "En el local, al terminar. En la reserva no se pide ningún pago."
+      },
+      "kids": {
+        "q": "¿Cortáis el pelo a niños?",
+        "a": "Sí, a niños de 0 a 12 años, por {price}."
+      },
+      "seniors": {
+        "q": "¿Tenéis precio para jubilados?",
+        "a": "Sí: corte + lavado por {price}."
+      },
+      "saturday": {
+        "q": "¿Abrís los sábados?",
+        "a": "Sí, de {sat}. Los lunes abrimos por la tarde, de {mon}, y el resto de la semana de {week}."
+      }
+    }
+  },
+  "cta": {
+    "title": "¿Toca corte?",
+    "text": "Elige barbero y hora, y ven a desconectar un rato.",
+    "button": "Reserva tu cita"
+  },
+  "footer": {
+    "tagline": "Barbería en Santa Coloma de Gramenet",
+    "visit": "Visítanos",
+    "hours": "Horario",
+    "services": "Servicios",
+    "follow": "Síguenos",
+    "hoursWeek": "Ma – Vi",
+    "hoursMon": "Lunes",
+    "hoursSat": "Sábado",
+    "hoursSun": "Domingo",
+    "legal": {
+      "notice": "Aviso legal",
+      "privacy": "Privacidad",
+      "cookies": "Cookies"
+    },
+    "rights": "© {year} The Soul Barber",
+    "links": {
+      "cuts": "Corte de pelo y degradados",
+      "beard": "Arreglo de barba",
+      "kids": "Corte para niños"
+    }
+  },
+  "mobileBar": {
+    "book": "Reservar",
+    "directions": "Cómo llegar"
+  },
+  "whatsapp": {
+    "label": "Escríbenos por WhatsApp",
+    "message": "Hola, tengo una pregunta sobre The Soul Barber."
+  },
+  "landing": {
+    "home": "Inicio",
+    "pricesTitle": "Precios",
+    "related": "Otros servicios",
+    "cuts": {
+      "crumb": "Corte de pelo",
+      "kicker": "The Soul Barber · Santa Coloma de Gramenet",
+      "title": "Corte de pelo y degradados",
+      "titleEm": "en Santa Coloma de Gramenet",
+      "lead": "Corte a tu medida con cejas y lavado en sillón de masaje por {price}, en el centro, en C/ dels Sagarra 5.",
+      "p1": "Hacemos degradados, cortes a tijera y cortes personalizados, y te aconsejamos sobre el estilo que mejor te queda. Los cortes de adulto llevan lavado incluido.",
+      "p2": "Reservas online y eliges barbero. Pagas en el local y, si te surge algo, cancelas gratis hasta {hours} horas antes."
+    },
+    "beard": {
+      "crumb": "Arreglo de barba",
+      "kicker": "The Soul Barber · Santa Coloma de Gramenet",
+      "title": "Arreglo de barba",
+      "titleEm": "en Santa Coloma de Gramenet",
+      "lead": "Barba perfilada por {price}, o la experiencia completa con corte, cejas y lavado por {fullPrice}.",
+      "p1": "Arreglamos y perfilamos la barba a tu gusto, y si quieres rematamos las cejas a navaja.",
+      "p2": "Reservas online y eliges barbero. Pagas en el local y, si te surge algo, cancelas gratis hasta {hours} horas antes."
+    },
+    "kids": {
+      "crumb": "Corte para niños",
+      "kicker": "The Soul Barber · Santa Coloma de Gramenet",
+      "title": "Corte de pelo para niños",
+      "titleEm": "en Santa Coloma de Gramenet",
+      "lead": "Corte para niños de 0 a 12 años por {price}, con cita para que no tengáis que esperar.",
+      "p1": "Media hora para los peques de la casa, en el centro de Santa Coloma. Y si venís juntos, puedes reservar también tu corte.",
+      "p2": "Reservas online y eliges barbero. Pagas en el local y, si os surge algo, cancelas gratis hasta {hours} horas antes."
+    }
+  }
+}

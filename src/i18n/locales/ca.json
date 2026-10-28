@@ -1,0 +1,327 @@
+{
+  "meta": {
+    "home": {
+      "title": "The Soul Barber · Barberia a Santa Coloma de Gramenet",
+      "description": "Barberia al centre de Santa Coloma de Gramenet: talls, degradats i barba amb rentat en butaca de massatge. 5,0 en més de 300 ressenyes. Reserva en línia.",
+      "ogTitle": "The Soul Barber · Tall, barba i massatge a Santa Coloma",
+      "ogDescription": "Quatre barbers, butaca de massatge i 5,0 en més de 300 ressenyes. C/ dels Sagarra 5, Santa Coloma de Gramenet."
+    },
+    "cuts": {
+      "title": "Tall de cabell i degradats a Santa Coloma de Gramenet · The Soul Barber",
+      "description": "Tall de cabell d'home i degradats al centre de Santa Coloma de Gramenet. Tall + celles + rentat per 16 €. Reserva en línia sense targeta."
+    },
+    "beard": {
+      "title": "Arranjament de barba a Santa Coloma de Gramenet · The Soul Barber",
+      "description": "Arranjament de barba a Santa Coloma de Gramenet per 13 €, o tall + barba + celles + rentat per 25 €. Reserva en línia amb el teu barber."
+    },
+    "kids": {
+      "title": "Tall de cabell per a nens a Santa Coloma de Gramenet · The Soul Barber",
+      "description": "Tall de cabell per a nens de 0 a 12 anys per 14 € al centre de Santa Coloma de Gramenet. Reserva en línia i paga al local."
+    }
+  },
+  "a11y": {
+    "skip": "Salta al contingut",
+    "openMenu": "Obre el menú",
+    "closeMenu": "Tanca el menú",
+    "language": "Idioma",
+    "mainNav": "Navegació principal",
+    "home": "The Soul Barber, inici",
+    "newWindow": "(s'obre en una finestra nova)",
+    "booking": "(reserva a Yeasy, s'obre en una finestra nova)",
+    "stars": "{score} de 5 estrelles",
+    "breadcrumb": "Ets aquí"
+  },
+  "nav": {
+    "services": "Serveis",
+    "team": "Equip",
+    "gallery": "Treballs",
+    "reviews": "Ressenyes",
+    "visit": "Visita'ns",
+    "book": "Reservar",
+    "bookLong": "Reserva la teva cita"
+  },
+  "status": {
+    "openNow": "Obert ara",
+    "closedNow": "Tancat ara",
+    "closesAt": "fins a les {time}",
+    "opensAt": "obrim {day} a les {time}",
+    "dayToday": "avui",
+    "dayTomorrow": "demà",
+    "dayOn": "el {day}"
+  },
+  "hero": {
+    "kicker": "Barberia a Santa Coloma de Gramenet",
+    "title": "Tall, barba i massatge.",
+    "titleEm": "Tu només relaxa't.",
+    "lead": "Degradats, barba i rentat en butaca de massatge al centre de Santa Coloma. Reserva en línia sense targeta i paga al local.",
+    "cta": "Reserva la teva cita",
+    "ctaSecondary": "Veure preus",
+    "rating": "{score} en {count} ressenyes",
+    "ratingSources": "Google i Yeasy",
+    "scroll": "Descobreix la barberia"
+  },
+  "experience": {
+    "eyebrow": "L'experiència",
+    "title": "Aquí no véns",
+    "titleEm": "només a tallar-te el cabell",
+    "lead": "El que més destaquen els nostres clients a les ressenyes, i el que tens des de la primera visita.",
+    "items": {
+      "wash": {
+        "title": "Rentat inclòs",
+        "text": "Els talls d'adult porten rentat. Sense suplements ni sorpreses."
+      },
+      "massage": {
+        "title": "Butaca de massatge",
+        "text": "Et rentem el cabell en una butaca amb massatge. És el que més es comenta a Google."
+      },
+      "detail": {
+        "title": "Al detall",
+        "text": "Celles a navalla i un últim repàs fins que el tall queda com vols."
+      },
+      "time": {
+        "title": "A la teva hora",
+        "text": "T'atenem a l'hora que reserves. El teu temps compta, i el del teu barber també."
+      }
+    },
+    "note": "Reserva sense targeta i paga al local. Cancel·lació gratuïta fins a {hours} hores abans."
+  },
+  "services": {
+    "eyebrow": "Serveis i preus",
+    "title": "Preus clars,",
+    "titleEm": "sense sorpreses",
+    "lead": "Tria servei, barber i hora a la reserva en línia. Pagues al local, en acabar.",
+    "popular": "Els més demanats",
+    "more": "Més serveis",
+    "book": "Reservar",
+    "bookAria": "Reservar {service}",
+    "colorTitle": "Color o un disseny?",
+    "colorText": "També fem color. Pregunta'ns al local o per Instagram i et diem el preu.",
+    "items": {
+      "cutBrowsWash": {
+        "name": "Tall + celles + rentat",
+        "desc": "Tall a la teva mida, arranjament de celles i rentat en butaca de massatge."
+      },
+      "cutBeardBrowsWash": {
+        "name": "Tall + barba + celles + rentat",
+        "desc": "L'experiència completa: tall, barba perfilada, celles i rentat."
+      },
+      "kidsCut": {
+        "name": "Tall de nen",
+        "desc": "Per als petits de 0 a 12 anys."
+      },
+      "seniorCut": {
+        "name": "Tall jubilat + rentat",
+        "desc": "Preu especial per a jubilats, amb rentat inclòs."
+      },
+      "beard": {
+        "name": "Barba",
+        "desc": "Arranjament i perfilat de barba."
+      },
+      "washMassage": {
+        "name": "Rentat + massatge capil·lar",
+        "desc": "Quinze minuts per desconnectar."
+      },
+      "brows": {
+        "name": "Celles a navalla",
+        "desc": "Arranjament de celles amb navalla."
+      }
+    }
+  },
+  "team": {
+    "eyebrow": "L'equip",
+    "title": "Quatre barbers,",
+    "titleEm": "una mateixa cura",
+    "lead": "Tria amb qui t'asseus. Molts clients repeteixen sempre amb el mateix i el demanen pel seu nom.",
+    "roles": {
+      "manager": "Mànager",
+      "barber": "Barber"
+    },
+    "book": "Reserva amb {name}",
+    "photoAlt": "{name}, de The Soul Barber"
+  },
+  "gallery": {
+    "eyebrow": "Treballs",
+    "title": "Degradats, barbes",
+    "titleEm": "i color",
+    "lead": "Una mostra del que surt de les nostres butaques. L'últim, sempre a Instagram.",
+    "instagram": "Segueix-nos a Instagram",
+    "items": {
+      "interior": "El local: pedra grisa i llum LED",
+      "fade": "Degradat amb textura",
+      "beard": "Barba perfilada",
+      "color": "Color blau «Blue Flames»",
+      "wash": "Rentat en butaca de massatge",
+      "facade": "Façana al C/ dels Sagarra 5"
+    }
+  },
+  "reviews": {
+    "eyebrow": "Ressenyes",
+    "title": "{score} de mitjana.",
+    "titleEm": "I no ho diem nosaltres.",
+    "lead": "Les valoracions dels nostres clients a Google i a Yeasy, l'app amb què reserven.",
+    "count": "{count} ressenyes",
+    "checked": "Dades a {date}",
+    "sources": {
+      "google": "Google",
+      "yeasy": "Yeasy"
+    },
+    "highlightsTitle": "El que més es repeteix",
+    "highlights": {
+      "detail": {
+        "title": "Atents a cada detall",
+        "text": "Els clients expliquen que es repassa el que calgui fins que el tall queda perfecte."
+      },
+      "wash": {
+        "title": "El rentat, un moment",
+        "text": "La butaca amb massatge mentre et renten el cabell és el més comentat a Google."
+      },
+      "time": {
+        "title": "Puntuals i amb bon rotllo",
+        "text": "Atenen a l'hora reservada, aconsellen sobre el teu estil i l'ambient és proper."
+      },
+      "loyal": {
+        "title": "Clients que repeteixen",
+        "text": "Molts tornen des del primer dia i demanen sempre el seu barber pel nom."
+      }
+    },
+    "topicsTitle": "El que més apareix a Google",
+    "topics": {
+      "massage": "massatge",
+      "chair": "butaca",
+      "fade": "degradat",
+      "design": "disseny",
+      "wash": "rentat",
+      "trust": "confiança"
+    },
+    "mentions": "{n} ressenyes",
+    "quotesTitle": "En les seves paraules",
+    "readGoogle": "Llegeix les ressenyes a Google",
+    "write": "Deixa la teva ressenya"
+  },
+  "visit": {
+    "eyebrow": "Visita'ns",
+    "title": "Al centre",
+    "titleEm": "de Santa Coloma",
+    "address": "Adreça",
+    "near": "A prop de l'Església Major",
+    "directions": "Com arribar-hi",
+    "hours": "Horari",
+    "today": "avui",
+    "closed": "Tancat",
+    "days": {
+      "0": "Diumenge",
+      "1": "Dilluns",
+      "2": "Dimarts",
+      "3": "Dimecres",
+      "4": "Dijous",
+      "5": "Divendres",
+      "6": "Dissabte"
+    },
+    "booking": "Reserves",
+    "bookingText": "En línia, sense targeta. Cancel·lació gratuïta fins a {hours} h abans.",
+    "social": "Instagram",
+    "phone": "Telèfon",
+    "whatsapp": "WhatsApp",
+    "mapTitle": "Mapa de The Soul Barber a Santa Coloma de Gramenet",
+    "mapLoad": "Veure al mapa",
+    "mapConsent": "El mapa el serveix Google i només es carrega si prems el botó."
+  },
+  "faq": {
+    "eyebrow": "Preguntes freqüents",
+    "title": "Abans",
+    "titleEm": "de venir",
+    "items": {
+      "book": {
+        "q": "Com demano cita?",
+        "a": "Amb el botó «Reserva la teva cita»: tries servei, barber i hora a Yeasy. No cal targeta."
+      },
+      "cancel": {
+        "q": "Puc cancel·lar o canviar la cita?",
+        "a": "Sí, gratis fins a {hours} hores abans. Així el forat li serveix a un altre client."
+      },
+      "pay": {
+        "q": "Quan pago?",
+        "a": "Al local, en acabar. A la reserva no es demana cap pagament."
+      },
+      "kids": {
+        "q": "Talleu el cabell a nens?",
+        "a": "Sí, a nens de 0 a 12 anys, per {price}."
+      },
+      "seniors": {
+        "q": "Teniu preu per a jubilats?",
+        "a": "Sí: tall + rentat per {price}."
+      },
+      "saturday": {
+        "q": "Obriu els dissabtes?",
+        "a": "Sí, de {sat}. Els dilluns obrim a la tarda, de {mon}, i la resta de la setmana de {week}."
+      }
+    }
+  },
+  "cta": {
+    "title": "Toca tall?",
+    "text": "Tria barber i hora, i vine a desconnectar una estona.",
+    "button": "Reserva la teva cita"
+  },
+  "footer": {
+    "tagline": "Barberia a Santa Coloma de Gramenet",
+    "visit": "Visita'ns",
+    "hours": "Horari",
+    "services": "Serveis",
+    "follow": "Segueix-nos",
+    "hoursWeek": "Dt – Dv",
+    "hoursMon": "Dilluns",
+    "hoursSat": "Dissabte",
+    "hoursSun": "Diumenge",
+    "legal": {
+      "notice": "Avís legal",
+      "privacy": "Privacitat",
+      "cookies": "Galetes"
+    },
+    "rights": "© {year} The Soul Barber",
+    "links": {
+      "cuts": "Tall de cabell i degradats",
+      "beard": "Arranjament de barba",
+      "kids": "Tall per a nens"
+    }
+  },
+  "mobileBar": {
+    "book": "Reservar",
+    "directions": "Com arribar-hi"
+  },
+  "whatsapp": {
+    "label": "Escriu-nos per WhatsApp",
+    "message": "Hola, tinc una pregunta sobre The Soul Barber."
+  },
+  "landing": {
+    "home": "Inici",
+    "pricesTitle": "Preus",
+    "related": "Altres serveis",
+    "cuts": {
+      "crumb": "Tall de cabell",
+      "kicker": "The Soul Barber · Santa Coloma de Gramenet",
+      "title": "Tall de cabell i degradats",
+      "titleEm": "a Santa Coloma de Gramenet",
+      "lead": "Tall a la teva mida amb celles i rentat en butaca de massatge per {price}, al centre, al C/ dels Sagarra 5.",
+      "p1": "Fem degradats, talls a tisora i talls personalitzats, i t'aconsellem sobre l'estil que et queda millor. Els talls d'adult porten el rentat inclòs.",
+      "p2": "Reserves en línia i tries barber. Pagues al local i, si et surt alguna cosa, cancel·les gratis fins a {hours} hores abans."
+    },
+    "beard": {
+      "crumb": "Arranjament de barba",
+      "kicker": "The Soul Barber · Santa Coloma de Gramenet",
+      "title": "Arranjament de barba",
+      "titleEm": "a Santa Coloma de Gramenet",
+      "lead": "Barba perfilada per {price}, o l'experiència completa amb tall, celles i rentat per {fullPrice}.",
+      "p1": "Arreglem i perfilem la barba al teu gust i, si vols, rematem les celles a navalla.",
+      "p2": "Reserves en línia i tries barber. Pagues al local i, si et surt alguna cosa, cancel·les gratis fins a {hours} hores abans."
+    },
+    "kids": {
+      "crumb": "Tall per a nens",
+      "kicker": "The Soul Barber · Santa Coloma de Gramenet",
+      "title": "Tall de cabell per a nens",
+      "titleEm": "a Santa Coloma de Gramenet",
+      "lead": "Tall per a nens de 0 a 12 anys per {price}, amb cita perquè no hàgiu d'esperar.",
+      "p1": "Mitja hora per als petits de casa, al centre de Santa Coloma. I si veniu junts, pots reservar també el teu tall.",
+      "p2": "Reserves en línia i tries barber. Pagues al local i, si us surt alguna cosa, cancel·les gratis fins a {hours} hores abans."
+    }
+  }
+}

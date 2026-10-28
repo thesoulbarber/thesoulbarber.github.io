@@ -1,0 +1,330 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-padding-top: calc(var(--header-h) + 1rem);
+  color-scheme: dark;
+}
+
+/* Desplazamiento suave solo cuando la página ya ha cargado (clase que pone main.ts): activo durante
+   la carga, Chrome abandona el salto a /#servicios y similares en el HTML prerenderizado */
+@media (prefers-reduced-motion: no-preference) {
+  html.is-loaded {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--bg);
+  /* Grano de piedra muy sutil generado por SVG */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 .035 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  color: var(--chalk);
+  font-family: var(--font-body);
+  font-size: var(--step-0);
+  line-height: 1.65;
+  font-optical-sizing: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+img {
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-stretch: var(--wide);
+  font-weight: 560;
+  line-height: 1.05;
+  letter-spacing: -0.005em;
+  text-wrap: balance;
+}
+
+p {
+  margin: 0;
+  text-wrap: pretty;
+}
+
+a {
+  color: inherit;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.22em;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 3px;
+  border-radius: var(--r-s);
+}
+
+::selection {
+  background: var(--chalk);
+  color: var(--night);
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link {
+  position: fixed;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 100;
+  padding: 0.7rem 1.2rem;
+  background: var(--chalk);
+  color: var(--night);
+  border-radius: var(--r-s);
+  font-weight: 600;
+  transform: translateY(-160%);
+  transition: transform var(--dur-s) var(--ease);
+}
+
+.skip-link:focus {
+  transform: none;
+}
+
+.container {
+  width: min(100% - 2 * var(--gutter), var(--content));
+  margin-inline: auto;
+}
+
+/* Secciones */
+.section {
+  position: relative;
+  padding-block: var(--space-2xl);
+}
+
+.section--alt {
+  background: linear-gradient(var(--coal), var(--coal)) padding-box;
+  border-block: 1px solid var(--line);
+}
+
+/* Secciones de tema cálido: pintan su fondo claro sobre el negro del body y
+   lo separan con una línea, creando el ritmo claro/oscuro de la página. */
+.theme-warm {
+  position: relative;
+  background-color: var(--bg);
+  /* Grano de papel cálido, muy tenue */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .05 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  color: var(--chalk);
+  border-block: 1px solid var(--line);
+}
+
+/* Los destellos blancos están pensados para fondo negro: en claro, fuera. */
+.theme-warm :is(.score__value, .cta__title, .barber__initials, .hero__title) {
+  text-shadow: none;
+}
+
+.section-head {
+  display: grid;
+  gap: var(--space-s);
+  max-width: 50rem;
+  margin-bottom: var(--space-xl);
+}
+
+.section-head .lead {
+  max-width: 42rem;
+}
+
+.section-head--center {
+  margin-inline: auto;
+  text-align: center;
+  justify-items: center;
+}
+
+/* Rótulo pequeño en mayúsculas espaciadas, con una tira LED delante */
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-family: var(--font-display);
+  font-stretch: var(--wide);
+  font-size: var(--step--2);
+  font-weight: 500;
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+  color: var(--mist);
+}
+
+.eyebrow::before {
+  content: '';
+  width: 2rem;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--led);
+  box-shadow: var(--led-glow);
+}
+
+.section-head--center .eyebrow::after {
+  content: '';
+  width: 2rem;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--led);
+  box-shadow: var(--led-glow);
+}
+
+.section-title {
+  font-size: var(--step-4);
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+}
+
+.section-title em {
+  display: block;
+  font-style: normal;
+  font-weight: 250;
+  color: var(--mist);
+}
+
+.lead {
+  font-size: var(--step-1);
+  line-height: 1.55;
+  color: var(--mist);
+}
+
+/* Aparición al hacer scroll (directiva v-reveal, animada con Web Animations) */
+[data-reveal='hidden'] {
+  opacity: 0;
+}
+
+/* Botones */
+.btn {
+  --btn-bg: var(--chalk);
+  --btn-fg: var(--night);
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  min-height: 3.1rem;
+  padding: 0.85rem 1.6rem;
+  border: 0;
+  border-radius: var(--r-s);
+  background: var(--btn-bg);
+  color: var(--btn-fg);
+  font-family: var(--font-display);
+  font-stretch: var(--wide);
+  font-size: var(--step--1);
+  font-weight: 640;
+  letter-spacing: 0.12em;
+  line-height: 1.1;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition:
+    box-shadow var(--dur-m) var(--ease),
+    background-color var(--dur-s) linear,
+    color var(--dur-s) linear,
+    transform var(--dur-s) var(--ease);
+}
+
+.btn:hover {
+  --btn-bg: var(--led);
+  box-shadow:
+    0 0 0 1px rgb(255 255 255 / 0.6),
+    0 0 26px rgb(220 232 255 / 0.45);
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+.btn--ghost {
+  --btn-bg: transparent;
+  --btn-fg: var(--chalk);
+  box-shadow: inset 0 0 0 1px var(--line-strong);
+}
+
+.btn--ghost:hover {
+  --btn-bg: rgb(255 255 255 / 0.06);
+  box-shadow:
+    inset 0 0 0 1px var(--chalk),
+    0 0 22px rgb(220 232 255 / 0.18);
+}
+
+.btn--small {
+  min-height: 2.6rem;
+  padding: 0.6rem 1.1rem;
+  font-size: var(--step--2);
+}
+
+.btn--block {
+  width: 100%;
+}
+
+.btn svg {
+  flex: none;
+}
+
+/* Enlace de texto con flecha */
+.text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid var(--line-strong);
+  padding-bottom: 0.15rem;
+  transition:
+    border-color var(--dur-s) linear,
+    gap var(--dur-s) var(--ease);
+}
+
+.text-link:hover {
+  border-color: var(--chalk);
+  gap: 0.6rem;
+}
+
+/* Tarjeta de piedra */
+.card {
+  position: relative;
+  padding: var(--space-m);
+  border: 1px solid var(--line);
+  border-radius: var(--r-m);
+  background: linear-gradient(180deg, var(--stone), var(--anthracite));
+  box-shadow: var(--shadow-m);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn,
+  .text-link {
+    transition: none;
+  }
+}

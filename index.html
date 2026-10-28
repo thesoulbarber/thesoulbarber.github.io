@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      // Raíz (castellano): ?lang= de enlaces antiguos o el idioma guardado ('tsb-locale', ver
+      // src/i18n) llevan a /ca/ antes de pintar nada. El resto de rutas se respetan.
+      ;(function () {
+        if (location.pathname !== '/') return
+        var url = new URL(location.href)
+        var lang = url.searchParams.get('lang')
+        url.searchParams.delete('lang')
+        try {
+          lang = lang || localStorage.getItem('tsb-locale')
+        } catch (e) {}
+        if (lang !== 'ca') return
+        url.pathname = '/ca/'
+        location.replace(url.href)
+      })()
+    </script>
+    <title>The Soul Barber</title>
+    <!--head-->
+    <meta name="theme-color" content="#0b0b0c" />
+    <meta name="color-scheme" content="dark" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BarberShop",
+        "name": "The Soul Barber",
+        "url": "https://thesoulbarber.es/",
+        "logo": "https://thesoulbarber.es/logo-soul-barber.png",
+        "image": "https://thesoulbarber.es/logo-soul-barber.png",
+        "priceRange": "€",
+        "currenciesAccepted": "EUR",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "C/ dels Sagarra, 5",
+          "addressLocality": "Santa Coloma de Gramenet",
+          "postalCode": "08921",
+          "addressRegion": "Barcelona",
+          "addressCountry": "ES"
+        },
+        "geo": { "@type": "GeoCoordinates", "latitude": 41.4517256, "longitude": 2.2113851 },
+        "hasMap": "https://www.google.com/maps/place/The+Soul+Barber/@41.4517256,2.2113851,17z",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Monday",
+            "opens": "13:00",
+            "closes": "21:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "09:00",
+            "closes": "21:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "09:00",
+            "closes": "13:00"
+          }
+        ],
+        "potentialAction": {
+          "@type": "ReserveAction",
+          "target": "https://cut.yeasyapp.com/AWlivc"
+        },
+        "sameAs": ["https://www.instagram.com/the_soulbarber/"]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="app"><!--app-html--></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

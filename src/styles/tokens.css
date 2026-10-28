@@ -1,0 +1,129 @@
+/*
+ * The Soul Barber · tokens de diseño
+ * Monocromo del local: negro, antracita, gris piedra y la luz blanca fría de las tiras LED.
+ * Un único acento (azul "Blue Flames") reservado para detalles: foco, estrellas, estado.
+ */
+:root {
+  /* Fondos (de más oscuro a más claro) */
+  --night: #0b0b0c;
+  --coal: #111113;
+  --anthracite: #18181b;
+  --stone: #232326;
+  --stone-2: #2f2f33;
+  --stone-3: #3d3d42;
+
+  /* Texto */
+  --chalk: #f2f2f0;
+  --mist: #c4c4c8;
+  --ash: #92929a;
+
+  /* Luz */
+  --led: #ffffff;
+  --led-soft: rgb(236 242 255 / 0.75);
+  --led-glow: 0 0 8px rgb(236 242 255 / 0.65), 0 0 28px rgb(200 220 255 / 0.25);
+  --flame: #5aa9ff;
+  --flame-soft: rgb(90 169 255 / 0.18);
+  --open: #6ad49b;
+
+  /* Latón cálido: acento de calidez junto a la luz fría (detalles de barbería) */
+  --brass: #c49a5a;
+  --brass-ink: #7a5a28;
+  --brass-soft: rgb(196 154 90 / 0.16);
+  --brass-glow: 0 0 7px rgb(196 154 90 / 0.5), 0 0 20px rgb(196 154 90 / 0.18);
+
+  /* Superficies semánticas */
+  --bg: var(--night);
+  --surface: var(--anthracite);
+  --surface-2: var(--stone);
+  --line: rgb(242 242 240 / 0.12);
+  --line-strong: rgb(242 242 240 / 0.28);
+  --focus: var(--flame);
+
+  /* Tipografía: Archivo ensanchado (rótulo del local) + Inter para leer */
+  --font-display: 'Archivo Variable', 'Archivo', system-ui, sans-serif;
+  --font-body: 'Inter Variable', 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --wide: 125%;
+  --tracking-wide: 0.22em;
+
+  --step--2: clamp(0.72rem, 0.7rem + 0.1vw, 0.78rem);
+  --step--1: clamp(0.85rem, 0.82rem + 0.15vw, 0.94rem);
+  --step-0: clamp(1rem, 0.96rem + 0.2vw, 1.0625rem);
+  --step-1: clamp(1.15rem, 1.08rem + 0.35vw, 1.35rem);
+  --step-2: clamp(1.4rem, 1.25rem + 0.75vw, 1.9rem);
+  --step-3: clamp(1.75rem, 1.45rem + 1.5vw, 2.7rem);
+  --step-4: clamp(1.95rem, 1.45rem + 2.3vw, 3.4rem);
+  --step-5: clamp(2.6rem, 1.7rem + 4.6vw, 5.6rem);
+
+  /* Espaciado */
+  --space-2xs: 0.375rem;
+  --space-xs: 0.625rem;
+  --space-s: 1rem;
+  --space-m: 1.5rem;
+  --space-l: 2.5rem;
+  --space-xl: clamp(2.75rem, 2rem + 3.5vw, 5rem);
+  --space-2xl: clamp(4.5rem, 3rem + 6vw, 8rem);
+  --gutter: clamp(1rem, 0.5rem + 2.5vw, 2.5rem);
+  --content: 74rem;
+
+  /* Formas: piedra cortada, esquinas casi rectas */
+  --r-s: 4px;
+  --r-m: 10px;
+  --r-l: 18px;
+
+  --shadow-m: 0 1px 0 rgb(255 255 255 / 0.04) inset, 0 18px 40px -20px rgb(0 0 0 / 0.8);
+
+  /* Movimiento: preciso, como un interruptor */
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-s: 180ms;
+  --dur-m: 420ms;
+  --dur-l: 1200ms;
+
+  --header-h: 4.5rem;
+  --mobile-bar-h: 4.25rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-s: 1ms;
+    --dur-m: 1ms;
+    --dur-l: 1ms;
+  }
+}
+
+/*
+ * Tema cálido: secciones claras que rompen el negro y dan aire a la página.
+ * Se redefinen las mismas variables semánticas, así que todos los componentes
+ * anidados cambian solos. El acento LED pasa a latón (línea cálida de barbería).
+ */
+.theme-warm {
+  /* Fondos cálidos (hueso → piedra clara) */
+  --night: #efe9dd;
+  --coal: #f4efe5;
+  --anthracite: #ebe4d6;
+  --stone: #f6f2ea;
+  --stone-2: #e6ddcc;
+  --stone-3: #d8cdb7;
+
+  /* Texto: tinta cálida casi negra */
+  --chalk: #241f17;
+  --mist: #5d5648;
+  --ash: #8c8371;
+
+  /* "Luz" en claro = latón cálido para las reglas y detalles */
+  --led: var(--brass);
+  --led-soft: rgb(122 90 40 / 0.8);
+  --led-glow: var(--brass-glow);
+
+  --bg: #f1ebe0;
+  --surface: var(--coal);
+  --surface-2: var(--stone);
+  --line: rgb(36 31 23 / 0.14);
+  --line-strong: rgb(36 31 23 / 0.26);
+  --focus: var(--brass-ink);
+
+  --shadow-m:
+    0 1px 0 rgb(255 255 255 / 0.7) inset, 0 20px 44px -26px rgb(60 48 24 / 0.5);
+
+  color-scheme: light;
+}
